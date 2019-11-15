@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fillAfter="false"
+    android:repeatMode="restart"
+    android:startOffset="1000">
+    <!--set中属性值 -->
+    <!--  android:duration="1000"       动画的时间-->
+    <!--  android:fillAfter="false"     动画在播放完毕后 是否保持动画最后的状态-->
+    <!--  android:repeatMode="restart"  循环的模式 restart 表示重复 reverse表示反转动画-->
+    <!--  android:startOffset="1000"   开始延迟效果 一般用在多个动画一起执行的时候-->
+
+    <!--透明度 alpha中属性值  注意set中的属性值可以放到alpha中-->
+    <!--   android:fromAlpha="1.0"         开始透明度值-->
+    <!--   android:repeatCount="infinite"   常量代表无限循环 其他值都是次数 注意这个属性不能放set里面-->
+    <!--   android:toAlpha="0.0"            结束透明度值-->
+
+    <alpha
+        android:fromAlpha="1.0"
+        android:repeatCount="infinite"
+        android:toAlpha="0.0" />
+</set>

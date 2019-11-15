@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500">
+    <!--set中属性值 -->
+    <!--  android:duration="1000"       动画的时间-->
+    <!--  android:fillAfter="false"     动画在播放完毕后 是否保持动画最后的状态-->
+    <!--  android:repeatMode="restart"  循环的模式 restart 表示重复 reverse表示反转动画-->
+    <!--  android:startOffset="1000"   开始延迟效果 一般用在多个动画一起执行的时候-->
+
+    <!--旋转 rotate中属性值  注意set中的属性值可以放到alpha中-->
+    <!--  android:fromDegrees 旋转的起始角度值 正数顺时针 负数逆时针-->
+    <!--  android:toDegrees  旋转的终点角度值  正数顺时针 负数逆时针-->
+    <!--  android:pivotX    旋转轴点x(旋转中心点x)-->
+    <!--  android:pivotY     旋转轴点y(旋转中心点Y)-->
+
+    <rotate
+        android:fromDegrees="0"
+        android:pivotX="100%"
+        android:pivotY="0"
+        android:toDegrees="90" />
+</set>

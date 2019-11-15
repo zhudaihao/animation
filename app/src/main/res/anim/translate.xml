@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="400">
+    <!--set中属性值 -->
+    <!--  android:duration="1000"       动画的时间-->
+    <!--  android:fillAfter="false"     动画在播放完毕后 是否保持动画最后的状态-->
+    <!--  android:repeatMode="restart"  循环的模式 restart 表示重复 reverse表示反转动画-->
+    <!--  android:startOffset="1000"   开始延迟效果 一般用在多个动画一起执行的时候-->
+
+
+    <!--平移 translate中属性值  注意set中的属性值可以放到alpha中-->
+    <!--android:fromXDelta="50%"  平移时开始的x值 (50%指图片X的一半)-->
+    <!--android:fromYDelta="0"  平移时开始的Y值-->
+    <!--android:toXDelta="0"    平移后的x值-->
+    <!--android:toYDelta="100"  平移后的Y值 -->
+    <translate
+        android:fromXDelta="50%"
+        android:fromYDelta="0"
+        android:toXDelta="500"
+        android:toYDelta="0" />
+</set>

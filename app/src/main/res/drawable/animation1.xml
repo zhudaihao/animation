@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--oneshot默认为false动画无限循环 true表示动画执行一次-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!--item添加每帧动画图片和执行时间-->
+    <item
+        android:drawable="@mipmap/bga_refresh_loading01"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading02"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading03"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading04"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading05"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading06"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading07"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading08"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading09"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading10"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading11"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/bga_refresh_loading12"
+        android:duration="100"/>
+
+
+</animation-list>
